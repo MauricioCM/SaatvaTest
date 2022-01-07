@@ -1,0 +1,52 @@
+.toggle {
+    background-color: #fff;
+    border: 1px solid #a6a19a;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 1rem 0 2rem 0;
+
+    &__tab {
+        color: #a6a19a;
+        cursor: pointer;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        text-align: center;
+        position: relative;
+
+        span {
+            &:hover {
+                color: white;
+            }
+
+            z-index: 20;
+            position: relative;
+            transition: all .5s;
+        }
+
+        &::before {
+            content: "";
+            height: 100%;
+            width: 0%;
+            opacity: 0.4;
+            display: block;
+            background: rgba(#a6a19a, 1);
+            bottom: 0;
+            position: absolute;
+            transition: all .5s;
+        }
+
+        &:hover {
+            color: white;
+
+            &:before {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+
+        &_active {
+            background-color: #a6a19a;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.header {
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+
+    @media (max-width: 767px) {
+        position: relative;
+    }
+
+    &__logo {
+        img {
+            width: 13rem;
+        }
+    }
+}

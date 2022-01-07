@@ -1,0 +1,26 @@
+.product {
+    font-size: 1.5rem;
+    height: 100vh;
+
+    @media (max-width: 767px) {
+        height: auto;
+    }
+
+    &__image {
+        height: 35rem;
+
+        @media (max-width: 767px) {
+            height: auto;
+        }
+
+        img {
+            @include imgCover(cover);
+        }
+    }
+
+    &__details {
+        display: flex;
+        justify-content: space-between;
+        font-size: inherit;
+    }
+}

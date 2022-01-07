@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in Product Component should just to be correctly mounted 1`] = `
+<div
+  className="align-items-center product center-body d-flex"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h1
+        className="primary-title mt-4 d-block d-md-none"
+      >
+        Choose Your Mattress
+      </h1>
+      <div
+        className="col-12 col-md-6 mt-5 mt-md-0 product__image"
+      >
+        <img
+          alt=""
+          className="animate__animated animate__fadeIn"
+          src="/img/classic-carousel.jpg"
+        />
+      </div>
+      <div
+        className="col-12 col-md-6 d-flex flex-column"
+      >
+        <h1
+          className="primary-title mb-5 d-none d-md-block"
+        >
+          Choose Your Mattress
+        </h1>
+        <div
+          className=" mb-auto"
+        >
+          <label
+            className="label-primary"
+          >
+            SELECT MATTRESS TYPE
+          </label>
+          <div
+            className="toggle"
+          >
+            <div
+              className="toggle__tab toggle__tab_active"
+              key="0"
+              onClick={[Function]}
+            >
+              <span>
+                Saatva Classic
+              </span>
+            </div>
+            <div
+              className="toggle__tab "
+              key="1"
+              onClick={[Function]}
+            >
+              <span>
+                Loom & Leaf
+              </span>
+            </div>
+            <div
+              className="toggle__tab "
+              key="2"
+              onClick={[Function]}
+            >
+              <span>
+                Zenhaven
+              </span>
+            </div>
+          </div>
+          <div
+            className="product__details"
+          >
+            <strong
+              className="product__name"
+            >
+              Saatva Classic
+               Mattress
+            </strong>
+            <span
+              className="product__price"
+            >
+              $
+              999
+            </span>
+          </div>
+          <div
+            className="product__rating"
+          >
+            <span
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                  "touchAction": "none",
+                }
+              }
+            >
+              <span
+                aria-hidden="true"
+                className="mb-4"
+                style={
+                  Object {
+                    "cursor": "",
+                    "display": "inline-block",
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "userSelect": "none",
+                    "verticalAlign": "middle",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                <span
+                  className="empty-icons"
+                  style={
+                    Object {
+                      "color": "#cccccc",
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="filled-icons"
+                  style={
+                    Object {
+                      "color": "#ffbc0b",
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "transition": "",
+                      "whiteSpace": "nowrap",
+                      "width": "98%",
+                    }
+                  }
+                  title="5 out of 5"
+                >
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                  <svg
+                    className="star-svg"
+                    fill="currentColor"
+                    height={22}
+                    style={Object {}}
+                    viewBox="0 0 24 24"
+                    width={22}
+                  >
+                    <path
+                      d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
+                      fill="currentColor"
+                      stroke="none"
+                      strokeMiterlimit="10"
+                      strokeWidth={0}
+                    />
+                  </svg>
+                </span>
+              </span>
+            </span>
+          </div>
+        </div>
+        <button
+          className="button button__primary w-100 text-center py-2 fs-4"
+          onClick={[Function]}
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
